@@ -3,12 +3,13 @@ import { useState } from "react";
 import { navigation } from "@/lib/constants";
 import Image from "next/image";
 import { FaMessage } from "react-icons/fa6";
+import Link from "next/link";
 
 const Navbar = () => {
   const [state, setState] = useState(false);
 
   return (
-    <nav className="bg-black-200 w-full border-b lg:border-0 lg:static mt-4 rounded-2xl ">
+    <nav className="bg-black-200 w-full border-b lg:border-0 static mt-4 rounded-2xl top-0 left-0 right-0 translate-y-0 z-[100]">
       <div className="items-center px-4 max-w-screen-xl mx-auto lg:flex lg:px-8">
         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
           <a href="/">
@@ -64,7 +65,7 @@ const Navbar = () => {
                   key={idx}
                   className="text-gray-300 hover:text-gray-600 flex justify-start items-center gap-1"
                 >
-                  <a href={item.path}>{item.title}</a>
+                  <Link href={item.path}>{item.title}</Link>
                   <div>
                     <IconComponent />
                   </div>
@@ -74,12 +75,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="hidden lg:inline-block">
-          <a
-            href="javascript:void(0)"
+          <Link
+            href="#contact"
             className="py-3 px-4 text-white bg-black-100 hover:bg-black-200 rounded-lg shadow flex justify-center items-center gap-1"
           >
             Let&apos;s talk <FaMessage className="w-[20px] h-[20px]" />
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

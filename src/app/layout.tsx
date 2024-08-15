@@ -21,7 +21,7 @@ export default function RootLayout({
         {/* To change theme of my page */}
         <ThemeProvider
           attribute="class"
-          defaultTheme="system" //default system color
+          defaultTheme="dark" //default system color
           enableSystem
           disableTransitionOnChange
         >

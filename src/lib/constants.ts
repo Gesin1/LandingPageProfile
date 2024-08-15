@@ -23,7 +23,7 @@ interface NavigationItem {
 
 // for navbar use
 export const navigation: NavigationItem[] = [
-  { title: "Home", path: "#", icon: FaHouse },
+  { title: "Home", path: "#home", icon: FaHouse },
   { title: "About", path: "#about", icon: FaUser },
   { title: "Projects", path: "#project", icon: FaBriefcase },
   { title: "Testimonials", path: "#testimonials", icon: FaComment },

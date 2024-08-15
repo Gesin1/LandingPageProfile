@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-28 relative">
+    <div className="pb-20 pt-28 relative" id="home">
       <div>
         {/* Support light desgn */}
         <Spotlight
@@ -36,7 +36,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-blue-100 max-w-[600px]">
             Hi, I&apos;m Gbadegesin, a Frontend Developer base in Nigeria
           </p>
-          <a href="#about">
+          <a href="/">
             <Button
               title="Show my work"
               icon={<FaLocationArrow />}
@@ -44,7 +44,14 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div className="bg-black-200 p-8 border border-gray-700 rounded-2xl lg:px-12">
+        <div
+          className="p-8 border border-gray-700 rounded-2xl lg:px-12 lg:py-10"
+          style={{
+            background: "rgb(4,7,29)",
+            backgroundColor:
+              "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%,",
+          }}
+        >
           <Carousel />
         </div>
       </div>
