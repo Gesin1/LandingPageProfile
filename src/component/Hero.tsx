@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-28 relative" id="home">
+    <div className="pb-28 pt-32 relative" id="home">
       <div>
         {/* Support light desgn */}
         <Spotlight
@@ -27,18 +27,18 @@ const Hero = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-8 z-10 relative">
         <div className="flex flex-col items-center justify-center relative">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Lorem ipsum dolor sit amet
+            welcome to my portfolio
           </h2>
           <TextGenerateEffect
             className="text-center text-[30px] md:text-5xl lg:text-6xl max-w-[650px]"
-            words="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            words="Transforming Ideas into Interactive Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-blue-100 max-w-[600px]">
             Hi, I&apos;m Gbadegesin, a Frontend Developer base in Nigeria
           </p>
           <a href="/">
             <Button
-              title="Show my work"
+              title="Check my CV"
               icon={<FaLocationArrow />}
               position="right"
             />

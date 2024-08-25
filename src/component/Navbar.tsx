@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { navigation } from "@/lib/constants";
 import Image from "next/image";
 import { FaMessage } from "react-icons/fa6";
@@ -7,12 +7,36 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [state, setState] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      setIsVisible(false); // Hide navbar when scrolling down
+    } else {
+      setIsVisible(true); // Show navbar when scrolling up
+    }
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
-    <nav className="bg-black-200 w-full border-b lg:border-0 static mt-4 rounded-2xl top-0 left-0 right-0 translate-y-0 z-[100]">
-      <div className="items-center px-4 max-w-screen-xl mx-auto lg:flex lg:px-8">
+    <nav
+      className={`bg-black-200 border-b lg:border-0 fixed top-0 left-5 right-5 sm:left-10 sm:right-10 xl:left-0 xl:right-0 z-[100] transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      } px-5 sm:px-10 rounded-xl`}
+    >
+      <div className="items-center  max-w-screen-xl mx-auto lg:flex ">
         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
-          <a href="/">
+          <a href="#home">
             <Image src="/gesinLogo.svg" width={120} height={50} alt="My Logo" />
           </a>
           <div className="lg:hidden">
@@ -76,7 +100,7 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:inline-block">
           <Link
-            href="#contact"
+            href="https://wa.me/qr/PCFD7XUZY7QWC1"
             className="py-3 px-4 text-white bg-black-100 hover:bg-black-200 rounded-lg shadow flex justify-center items-center gap-1"
           >
             Let&apos;s talk <FaMessage className="w-[20px] h-[20px]" />

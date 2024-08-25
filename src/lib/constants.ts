@@ -34,7 +34,8 @@ export const navigation: NavigationItem[] = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I emphasize close client collaboration and transparent communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -44,7 +45,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I am highly adaptable to communication across different time zones",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -64,7 +65,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for software development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -75,7 +76,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on local team data collection",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -85,7 +86,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Would you like to collaborate on a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -103,7 +104,8 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    liveLink: "/ui.earth.com",
+    sourceLink: "https://github.com/gesin1",
   },
   {
     id: 2,
@@ -111,7 +113,8 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    liveLink: "/ui.yoom.com",
+    sourceLink: "https://github.com/gesin1",
   },
   {
     id: 3,
@@ -119,7 +122,8 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    liveLink: "/ui.aiimg.com",
+    sourceLink: "https://github.com/gesin1",
   },
   {
     id: 4,
@@ -127,7 +131,8 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    liveLink: "/ui.apple.com",
+    sourceLink: "https://github.com/gesin1",
   },
 ];
 
@@ -135,33 +140,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Gbadegesin was a pleasure. His professionalism, promptness, and dedication to delivering outstanding results were clear throughout our project. His enthusiasm for development truly stands out. If you want to elevate your website and brand, Gbadegesin is the perfect partner.",
+    name: "Adekunle Ibrahim",
+    title: "Director of Agro Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ridwan was a fantastic experience. His proactive communication, strong work ethic, and dedication to achieving the best outcomes were evident throughout our collaboration. Ridwan is a top-notch professional who truly cares about his craft.",
+    name: "Mark Banjo",
+    title: "CFO Luxaam",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gbadegesin Ridwan is a talented developer with a keen eye for innovation. His ability to solve complex problems and deliver high-quality work on time made him an invaluable asset to our team. I highly recommend Ridwan for any development project.",
+    name: "Sandra Smith",
+    title: "Senior Dev @ Markwave Tech",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Gbadegesin Ridwan was a seamless experience. His commitment to quality and attention to detail consistently exceeded my expectations. Ridwan's technical expertise and creative approach made a significant impact on our project's success.",
+    name: "Mustapha Olalekan",
+    title: "Senior dev @ Gudygo",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Partnering with Gbadegesin Ridwan was an absolute delight. His genuine passion for development, coupled with his meticulous attention to detail, made our project not just successful, but enjoyable. Ridwan's warm professionalism and creativity shine through in everything he does.",
+    name: "Pavic osuman",
+    title: "Product Manager",
   },
 ];
 
@@ -169,33 +174,75 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "CSS",
+    img: "/css.svg",
+    nameImg: "/CSSName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "HTML5",
+    img: "/html.svg",
+    nameImg: "/html5Name.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "js.js",
+    img: "/js.svg",
+    nameImg: "/JavaScriptName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "React.js",
+    img: "/reactjs.svg",
+    nameImg: "/ReactName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "next.js",
+    img: "/next.svg",
+    nameImg: "/NextName.svg",
+  },
+  {
+    id: 6,
+    name: "Tailwind",
+    img: "/tailwind.svg",
+    nameImg: "/TailwindName.svg",
+  },
+  {
+    id: 7,
+    name: "Typescript",
+    img: "/typescript.svg",
+    nameImg: "/TypescriptName.svg",
+  },
+  {
+    id: 8,
+    name: "Vite",
+    img: "/vite.svg",
+    nameImg: "/ViteName.svg",
+  },
+  {
+    id: 9,
+    name: "Visual Studio Code",
+    img: "/VisualStudioCode.svg",
+    nameImg: "/VisualName.svg",
+  },
+  {
+    id: 10,
+    name: "Firebase",
+    img: "/firebase.svg",
+    nameImg: "FirebaseName.svg",
+  },
+  {
+    id: 11,
+    name: "Github",
+    img: "/github.svg",
+    nameImg: "/GitHubName.svg",
+  },
+  {
+    id: 12,
+    name: "Node.js",
+    img: "/nodejs.svg",
+    nameImg: "/NodeName.svg",
   },
 ];
 
@@ -210,15 +257,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "User interface & User experience design ",
+    desc: "Designed a comprehensive sports website for both mobile and desktop using Figma, Adobe XD, and Illustrator. ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance WebApp Dev Project",
+    desc: "Partnered with other developers to create an e-commerce store for both the App Store and a website.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -236,13 +283,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Gesin1",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/@ThebussinesMyth",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/gbadegesin-ridwan-o",
   },
 ];

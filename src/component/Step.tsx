@@ -14,7 +14,7 @@ const Step = () => {
         <Card
           title="My planinig and strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="In this phase, I set clear goals, conduct research, and outline a strategic plan to ensure the project aligns with both client needs and user expectations."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,7 +24,7 @@ const Step = () => {
         <Card
           title="Excustion"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="I turn the plan into reality, developing core features and refining designs through collaboration and testing, bringing the project vision to life."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ const Step = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="I finalize the project with rigorous testing and optimization, ensuring a smooth launch. Post-launch, I monitor and adjust to maintain success."
         >
           <CanvasRevealEffect
             animationSpeed={3}
