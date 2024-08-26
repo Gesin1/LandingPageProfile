@@ -67,19 +67,19 @@ const Project = () => {
                   </div>
                 </div>
                 <div className="flex items-center justify-between mt-5 mb-3">
-                  <div className="flex justify-center items-center border rounded-xl py-2 px-[18px] transition-all duration-700 ease-in-out  hover:shadow-1xl hover:shadow-black hover:bg-white hover:font-medium">
+                  <div className="flex justify-center items-center border rounded-xl py-2 px-[18px] transition-all duration-700 ease-in-out  hover:shadow-1xl hover:shadow-black hover:bg-white ">
                     <Link
                       href={sourceLink}
-                      className="flex lg:text-xl md:text-xs text-sm text-purple"
+                      className="flex lg:text-lg md:text-xs sm:text-sm text-xs text-purple"
                     >
                       Sources Code
                       <FaLocationArrow className="ms-3" color="#CBACF9" />
                     </Link>
                   </div>
-                  <div className="flex justify-center items-center border rounded-xl py-2 px-3 transition-all duration-700 ease-in-out  hover:shadow-1xl hover:shadow-black hover:bg-white hover:font-medium">
+                  <div className="flex justify-center items-center border rounded-xl py-2 px-3 transition-all duration-700 ease-in-out  hover:shadow-1xl hover:shadow-black hover:bg-white ">
                     <Link
                       href={liveLink}
-                      className="flex lg:text-xl md:text-xs text-sm text-purple"
+                      className="flex lg:text-lg md:text-xs sm:text-sm text-xs text-purple"
                     >
                       Check Live Site
                       <FaLocationArrow className="ms-3" color="#CBACF9" />
