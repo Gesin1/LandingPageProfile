@@ -2,6 +2,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 import Button from "./ui/Button";
 import { socialMedia } from "@/lib/constants";
 import Link from "next/link";
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
@@ -33,7 +35,7 @@ const Footer = () => {
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
               <Link href={profile.link}>
-                <img
+                <Image
                   src={profile.img}
                   alt={profile.img}
                   width={20}
